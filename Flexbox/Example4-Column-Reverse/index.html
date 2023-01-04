@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: column-reverse; /* this will switch the divs inside the container to go from top to bottom */
+        background-color: darkred;
+      }
+
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Example 4 Column Reverse</h1>
+    <div class="flex-container">
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+    </div>
+  </body>
+</html>

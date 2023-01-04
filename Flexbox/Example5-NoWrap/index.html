@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        background-color: darkred;
+        flex-wrap: nowrap; /* prevents the wrap to go over the next line */
+        width: 100px; /* the red background/container will only be this width */
+      }
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Example</h1>
+    <div class="flex-container">
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+    </div>
+  </body>
+</html>

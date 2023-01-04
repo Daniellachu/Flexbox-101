@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        background-color: darkred;
+        flex-wrap: wrap-reverse; /* will make each div have their own individual line, still in the same container but now the divs are reversed starting from the last div to the first one */
+        width: 100px;
+      }
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Example 7 Wrap reverse </h1>
+    <div class="flex-container">
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+    </div>
+  </body>
+</html>

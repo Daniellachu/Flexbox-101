@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: row-reverse; /* this will put the container to the right side of the screen, the order of the divs will change starting from the last to the first div */
+        background-color: darkred;
+      }
+
+      .flex-container > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Example 3 Row Reverse </h1>
+    <div class="flex-container">
+      <div>A</div>
+      <div>B</div>
+      <div>C</div>
+    </div>
+  </body>
+</html>
